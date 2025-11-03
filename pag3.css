@@ -19,6 +19,7 @@ header {
     height: 100px;
     gap: 100px;
     background-color: rgb(253, 206, 147);
+    margin-bottom: 20px;
     
 }
 ul{
@@ -42,4 +43,20 @@ a {
 }
 h1 {
     font-family: serif;
+}
+
+h2 {
+    margin-top: 20px;
+    font-family:Tahoma;
+    font-size: 30px;
+}
+
+.img1 {
+    margin-top: 50px;
+    padding: 25px;
+    
+}
+p {
+    font-family: serif;
+    font-size: 20px;
 }
