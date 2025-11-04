@@ -46,27 +46,73 @@ h1 {
     font-family: serif;
 }
 
+.subtitulo {
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-family: Cambria;
+    margin-bottom: 3%;
+
+}
+
+
 h2 {
     margin-top: 20px;
-    font-family:Tahoma;
-    font-size: 30px;
+    font-family:serif;
+    font-size: 65px;
     margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    color: rgb(110, 72, 44);
+    margin-bottom: 5%;
 }
 
-
-p {
-    font-family: serif;
+.explicacao {
     font-size: 20px;
+
+
+
+}
+.img1 {
     display: flex;
-    align-items: center;
-    gap: 15;
+    justify-content: center;
+    
 }
 .img1 img {
-    margin-top: 15px;
-    height: 100%;
-    width: auto
-    
-    
+    width: 25%;
+    height: auto;
+    border-radius: 10%;
+    padding: 20px;
     
 
+}
+
+.caso2 p {
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-family: Cambria;
+    margin-bottom: 3%;
+
+}
+
+.explicado {
+    font-size: 20px;
+
+}
+
+.imagem1 {
+    display: flex;
+    justify-content: start;
+}
+.imagem1 img {
+    width: 30%;
+    height: auto;
+    border-radius: 10%;
+    padding: 20px;
+}
+.imagem1 p {
+    margin-top: 3%;
+    font-size: 20px;
 }
