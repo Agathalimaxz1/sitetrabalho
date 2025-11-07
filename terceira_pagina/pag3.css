@@ -143,4 +143,28 @@ h2 {
     font-size: 20px;
     height: 20px;
 }
+.final p {
+     margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family:cursive;
+    margin-bottom: 3%;
+
+}
+.imgfim {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+   
+}
+
+.imgfim img {
+    border-radius: 10%;
+    height: auto;
+    width: 190px;
+}
 
