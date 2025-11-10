@@ -40,30 +40,26 @@ li:hover {
     text-decoration: underline;
 }
 
-.img1 {
-    margin-top: 90px;
+.texto {
+    justify-content:center;
     display: flex;
-    justify-content: center;
+}
+.texto h1 {
+    color: rgb(110, 72, 44);
+    font-size: 85px;
+}
+
+.img1 {
+    margin-top: 60px;
+    display: flex;
+    justify-content: start;
     font-size: 100px;
 }
 
 .img1 img {
-    width: 60%;
+    width: 40%;
     height: auto;
     border-radius: 8%;
     background-color: rgba(49, 47, 47, 0.6); 
 }
 
-.texto {
-    position: absolute;
-      top: 50%;         
-      left: 50%;        
-      transform: translate(-50%, -50%);
-      font-size: 24px;
-      font-weight: bold;
-      color: rgb(255, 255, 255); 
-      padding: 10px 20px;
-      border-radius: 5px;
-      font-size: 40px;
-      justify-content: center;
-}
