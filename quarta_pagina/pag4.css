@@ -18,6 +18,7 @@ header {
     height: 100px;
     gap: 100px;
     background-color: rgb(253, 206, 147);
+    
 }
 
 ul {
@@ -41,40 +42,67 @@ li:hover {
 }
 
 .texto {
-    justify-content:center;
-    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 30px 150px;
+    display: flex;flex-direction: column;
+    text-align: center;
+    
 }
-.texto h1 {
-    color: rgb(110, 72, 44);
+.texto h2 {
+    text-align: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
     font-size: 85px;
     filter: drop-shadow(5px 5px 10px rgb(128, 119, 119));
  
 }
+.texto p {
+    margin-top: 25px;
+    font-size: 20px;
+    font-family: Arial;
+    margin-bottom: 10px;
     
+   
+}
+  
 
 .img1 {
-    margin-top: 60px;
+    
     display: flex;
     justify-content: start;
-    font-size: 100px;
-    padding: 3rem;
+    padding: 30px;
+    /* padding: 20px 100px;  */
+    /* justify-content: start;
+    padding: 40px;
+    display: flex;
+    align-items: center; */
+    /* align-items: center;
+    justify-content: flex-start;
+    display: flex;
+    gap: 100px; */
+}
+.img1 h1 {
+    font-size: 50px;
+    padding: 20px;
+
 }
 
 .img1 img {
-    width: 40%;
+    margin-top: 1%;
+    width: 45%;
     height: auto;
     border-radius: 8%;
     background-color: rgba(49, 47, 47, 0.6); 
-    filter: drop-shadow(5px 5px 10px black);
+    filter: drop-shadow(5px 5px 10px black);  
 
 }
-.img1 p {
-    font-size: 20px;
-    font-family: cursive;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    
 
-   
-}
+
+
+
+
+
+
+
