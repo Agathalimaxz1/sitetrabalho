@@ -69,41 +69,44 @@ li:hover {
   
 
 .img1 {
-    display: flex;
-    justify-content: start;
-    padding: 30px;
-    /* padding: 20px 100px;  */
-    /* justify-content: start;
-    padding: 40px;
-    display: flex;
-    align-items: center; */
-    /* align-items: center;
-    justify-content: flex-start;
-    display: flex;
-    gap: 100px; */
+    width: 45%;
+    padding: 20px;
+    
 }
 .text h1 {
-    font-size: 50px;
+    font-size: 35px;
     padding: 20px;
 
 }
 
 .img1 img {
     margin-top: 1%;
-    width: 45%;
+    width: 100%;
     height: auto;
     border-radius: 8%;
     background-color: rgba(49, 47, 47, 0.6); 
-    filter: drop-shadow(5px 5px 10px black);  
+    filter: drop-shadow(5px 5px 10px black);
+      
 
 }
+
 .text {
-    display: flex;
+    width: 40%
 }
+
 .text p {
     font-size: 20px;
     font-family: Arial;
 }
+
+.conteudo {
+    display: flex;
+    width: 100%;
+    gap: 40px;
+    justify-content: center;
+}
+   
+
 
 
 
