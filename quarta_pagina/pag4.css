@@ -74,7 +74,7 @@ li:hover {
     
 }
 .text h1 {
-    filter: drop-shadow(5px 5px 10px rgb(90, 82, 82));
+    filter: drop-shadow(5px 5px 10px rgb(146, 135, 135));
     font-size: 40px;
     padding: 20px;
     margin-bottom: 2%;
@@ -112,9 +112,9 @@ li:hover {
     margin-top: 3%;
 }
 .cont h1 {
-    filter: drop-shadow(5px 5px 10px rgb(95, 89, 89));
+    filter: drop-shadow(5px 5px 10px rgb(146, 135, 135));
     font-size: 40px;
-    margin-bottom: 1%;
+    margin-bottom: 2%;
 }
 
 .cont p {
