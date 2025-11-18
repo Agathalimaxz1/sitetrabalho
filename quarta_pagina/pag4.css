@@ -1,4 +1,4 @@
-* {
+* { 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -70,12 +70,14 @@ li:hover {
 
 .img1 {
     width: 45%;
-    padding: 20px;
+    padding: 5px;
     
 }
 .text h1 {
-    font-size: 35px;
+    filter: drop-shadow(5px 5px 10px rgb(90, 82, 82));
+    font-size: 40px;
     padding: 20px;
+    margin-bottom: 2%;
 
 }
 
@@ -95,7 +97,7 @@ li:hover {
 }
 
 .text p {
-    font-size: 20px;
+    font-size: 25px;
     font-family: Arial;
 }
 
@@ -105,7 +107,21 @@ li:hover {
     gap: 40px;
     justify-content: center;
 }
-   
+
+.cont {
+    margin-top: 3%;
+}
+.cont h1 {
+    filter: drop-shadow(5px 5px 10px rgb(95, 89, 89));
+    font-size: 40px;
+    margin-bottom: 1%;
+}
+
+.cont p {
+    font-size: 25px;
+   font-family: Arial; 
+
+}
 
 
 
