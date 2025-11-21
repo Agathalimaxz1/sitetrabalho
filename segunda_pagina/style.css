@@ -79,16 +79,30 @@ li:hover {
 .eucaristia h1 {
     margin-top: 60px;
     font-family: serif;
-    font-size: 65px;
+    font-size: 75px;
     text-align: center;
     filter: drop-shadow(5px 5px 10px rgb(145, 135, 135));
 
 
 }
 .eucaristia p {
-    margin-top: 20px;
+    margin-top: 50px;
     font-size: 25px;
     font-family: Arial;
 
+}
+.historia {
+    margin-top: 60px;
+    font-family: serif;
+    font-size: 45px;
+    text-align: center;
+    filter: drop-shadow(5px 5px 10px rgb(145, 135, 135));
+    
+
+}
+.historia p {
+    margin-top: 40px;
+    font-size: 25px;
+    font-family: Arial;
 }
 
