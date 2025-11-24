@@ -11,6 +11,7 @@ body {
 }
 
 header {
+    font-family: Arial;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -128,14 +129,26 @@ li:hover {
     font-size: 25px;
     font-family: Arial;
 }
-.missa img{
-    display: block;
+.fotosmissa {
+    display: flex;
+    /* display: block;
     margin: 40px auto;
     width: 30%;
+    height: auto;
+    border: solid rgba(163, 107, 4, 0.973);
+    filter: drop-shadow(5px 5px 10px black);
+    border-radius: 5%; */
+
+}
+.fotosmissa img {
+    display: block;
+    margin: 40px auto;
+    width: 25%;
     height: auto;
     border: solid rgba(163, 107, 4, 0.973);
     filter: drop-shadow(5px 5px 10px black);
     border-radius: 5%;
 
 }
+
 
