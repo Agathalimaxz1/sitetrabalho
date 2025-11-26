@@ -45,11 +45,23 @@ li:hover {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px
 }
+.santos {
+    display: flex;
+}
 
 .santos img{
-    margin-top: 5rem;
-    width: 25%;
+    padding: 100px;
+    margin-top: 5px;
+    width: 30%;
     height: auto;
     border-radius: 100%;
     filter: drop-shadow(5px 5px 10px rgb(56, 54, 54));
+}
+.santos p {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: serif;
+    font-size: 35px;
 }
