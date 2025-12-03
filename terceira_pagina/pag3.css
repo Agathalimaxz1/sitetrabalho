@@ -1,16 +1,17 @@
 * {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 
 body {
-font-family: sans-serif;
-font-weight: 400;
-background-color:antiquewhite ;
+    font-family: sans-serif;
+    font-weight: 400;
+    background-color: antiquewhite;
 
 }
+
 header {
     font-size: 1.5rem;
     display: flex;
@@ -21,28 +22,32 @@ header {
     gap: 100px;
     background-color: rgb(253, 206, 147);
     margin-bottom: 40px;
-    
-    
+
+
 }
-ul{
+
+ul {
     display: flex;
     gap: 30px;
     list-style: none;
     color: black;
 
 }
- li {
+
+li {
     transition: all .3s ease;
 }
 
 li:hover {
     transform: scale(1.1);
-    text-decoration: underline; 
+    text-decoration: underline;
 }
+
 a {
     color: black;
     text-decoration: none;
 }
+
 h1 {
     font-family: serif;
 }
@@ -59,7 +64,7 @@ h1 {
 
 h2 {
     margin-top: 20px;
-    font-family:serif;
+    font-family: serif;
     font-size: 65px;
     margin-bottom: 70px;
     display: flex;
@@ -74,17 +79,19 @@ h2 {
 
 
 }
+
 .img1 {
     display: flex;
     justify-content: center;
-    
+
 }
+
 .img1 img {
     width: 25%;
     height: auto;
     border-radius: 10%;
     padding: 20px;
-    
+
 
 }
 
@@ -107,16 +114,19 @@ h2 {
     display: flex;
     justify-content: start;
 }
+
 .imagem1 img {
     width: 30%;
     height: auto;
     border-radius: 10%;
     padding: 20px;
 }
+
 .imagem1 p {
     margin-top: 3%;
     font-size: 20px;
 }
+
 .caso3 p {
     margin-top: 5%;
     justify-content: center;
@@ -126,32 +136,35 @@ h2 {
     margin-bottom: 3%;
 
 }
+
 .explic {
     font-size: 20px;
 }
+
 .img5 {
     display: flex;
     justify-content: start;
 }
+
 .img5 img {
     width: 20%;
     height: auto;
     border-radius: 10%;
     padding: 20px;
 }
+
 .img5 p {
-     margin-top: 3%;
+    margin-top: 3%;
     font-size: 20px;
     height: 20px;
 }
+
 .final p {
-     margin-top: 5%;
+    margin-top: 5%;
     justify-content: center;
     align-items: center;
     font-size: 25px;
-    font-family:cursive;
+    font-family: cursive;
     margin-bottom: 3%;
 
 }
-
-
