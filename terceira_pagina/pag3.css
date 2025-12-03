@@ -153,19 +153,5 @@ h2 {
     margin-bottom: 3%;
 
 }
-.imgfim {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-   
-}
 
-.imgfim img {
-    border-radius: 10%;
-    height: auto;
-    width: 190px;
-}
 
