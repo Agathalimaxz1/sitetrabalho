@@ -94,3 +94,12 @@ button i {
     font-size: 100px;
     filter: drop-shadow(5px 5px 10px rgb(145, 135, 135));
 }
+
+.frases p {
+    font-size: 25px;
+    font-family: Arial;
+}
+.frases {
+    padding: 20px;
+    justify-content: center;
+}
